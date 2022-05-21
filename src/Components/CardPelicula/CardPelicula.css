@@ -1,0 +1,36 @@
+.contenedor_carta{
+    background-color: rgb(220, 220, 220);
+    width: 250px;
+    margin: 20px;
+}
+
+
+.imagen_carta{
+    width: 100%;
+}
+
+.contenedor_info{
+    padding: 10px;
+}
+
+.contenedor_info h4{
+    margin: 0;
+    margin-top: 15px;
+}
+
+.contenedor_info p{
+   margin: 0;
+   margin-left: 10px;
+}
+
+.contenedor_boton{
+    padding: 15px;
+}
+
+.boton{
+   background-color: brown;
+   border: none; 
+   padding: 5px 10px;
+   color: white;
+   text-decoration: none;
+}

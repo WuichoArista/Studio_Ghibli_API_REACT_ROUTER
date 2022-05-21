@@ -1,22 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios'
+import React, { useState, useEffect } from 'react'
+//import CardQuotes from './Components/CardQuotes';
+
 
 function App() {
+
+  /* const [quote , setquote] = useState({})
+
+  const getQuotes = async () => {
+
+    const url = 'https://breakingbadapi.com/api/quote/random'
+    const respuesta = await axios.get(url)
+    setquote(respuesta.data[0])
+
+    console.log(quote)
+  }
+
+  useEffect( () => {
+
+    getQuotes()
+
+  }, [])
+  
+  
+ */
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+{/* 
+      <header className='App-header '>
+        
+        <CardQuotes info={quote} />
+
+        <button onClick={ () => { getQuotes() } }>
+          otra frase
+        </button>
+
+      
+
+      </header> */}
+      <header className='App-header '>
+        
       </header>
     </div>
   );

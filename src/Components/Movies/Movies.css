@@ -1,0 +1,12 @@
+
+
+.contenedor_peliculas{
+    max-width: 90rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+
+    
+}
