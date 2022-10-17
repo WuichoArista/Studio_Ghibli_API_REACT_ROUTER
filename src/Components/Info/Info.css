@@ -1,0 +1,48 @@
+
+
+
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.imagen_banner{
+    width: 100%;
+}
+
+.info_pelicula{
+    width: 90%;
+    margin: 0 auto; 
+    padding-bottom: 15px;
+}
+
+.titulo_ingles, .titulo_original, .info_pelicula_calificacion, .productor, .estreno, .director, .duracion{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_ingles h3, .titulo_original h3, .info_pelicula_calificacion h3, .productor h3, .estreno h3, .director h3, .duracion h3{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.titulo_ingles p, .titulo_original p, .info_pelicula_calificacion p, .productor p, .estreno p, .director p, .duracion p{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.sinopsis{
+    background-color: rgb(239, 239, 239);
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+
+.puntaje{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
