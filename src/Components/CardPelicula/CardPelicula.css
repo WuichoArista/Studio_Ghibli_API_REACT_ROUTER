@@ -1,7 +1,8 @@
 .contenedor_carta{
     background-color: rgb(220, 220, 220);
     width: 250px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -18,9 +19,8 @@
     margin-top: 15px;
 }
 
-.contenedor_info p{
+.card.titulo{
    margin: 0;
-   margin-left: 10px;
 }
 
 .contenedor_boton{
@@ -33,4 +33,8 @@
    padding: 5px 10px;
    color: white;
    text-decoration: none;
+}
+
+.card_descripcion{
+    height: 100px;
 }

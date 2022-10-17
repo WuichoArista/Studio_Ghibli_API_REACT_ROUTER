@@ -1,12 +1,14 @@
 
+.pagina_titulo_movies{
+    margin-left: 15px;
+}
 
 .contenedor_peliculas{
     max-width: 90rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
-
     
 }

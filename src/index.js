@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './Components/Home';
+
+import Home from './Components/Home/Home'
 import Movies from './Components/Movies/Movies';
-import Nav from './Components/Nav/Nav';
-import Info from './Components/Info';
+import Info from './Components/Info/Info';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,9 +18,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={ <Home />} />
-        <Route path='movies' element={ <Movies />} >
-          <Route path="movie/:movie" element={ <Info />} />
-        </Route>
+        <Route path='movies' element={ <Movies />} />
+        <Route path="/:id" element={ <Info />} />
       </Routes>
     </BrowserRouter>
    {/*  <App /> */}
